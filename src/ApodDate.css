@@ -1,0 +1,14 @@
+/* ApodDate.css */
+
+.ApodDate {
+    color: blue;
+    font-size: 18px;
+    margin-bottom: 15px;
+    transition: font-size 0.3s ease;
+  }
+  
+  .ApodDate:hover {
+    font-size: 22px;
+    color: blue;
+  }
+  
