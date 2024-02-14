@@ -2,9 +2,22 @@
 
 .ApodExplanation {
     font-style: italic;
-    color: #666;
+    color: #080505;
     margin-top: 15px;
     line-height: 1.6;
     font-size: 1pc;
   }
-  
+  .ApodExplanation2 {
+    font-style: italic;
+    color:  #080505;
+    margin-top: 15px;
+    line-height: 1.6;
+    font-size: 1pc;
+  }
+  .ApodExplanation3 {
+    font-style: italic;
+    color:  #080505;
+    margin-top: 15px;
+    line-height: 1.6;
+    font-size: 1pc;
+  }

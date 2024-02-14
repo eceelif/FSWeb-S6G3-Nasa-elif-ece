@@ -1,14 +1,35 @@
 /* ApodTitle.css */
 
-.ApodTitle {
-    color: green;
+.ApodTitle1 {
+    color: rgb(4, 53, 4);
     font-size: 24px;
     margin-bottom: 10px;
     transition: font-size 0.3s ease;
   }
   
-  .ApodTitle:hover {
-    color: red;
+  .ApodTitle1:hover {
+    color: rgb(82, 206, 119);
     font-size: 28px;
   }
+  .ApodTitle2 {
+    color: rgb(17, 9, 128);
+    font-size: 24px;
+    margin-bottom: 10px;
+    transition: font-size 0.3s ease;
+  }
   
+  .ApodTitle2:hover {
+    color: rgb(17, 132, 161);
+    font-size: 28px;
+  }
+  .ApodTitle3 {
+    color: rgb(54, 4, 15);
+    font-size: 24px;
+    margin-bottom: 10px;
+    transition: font-size 0.3s ease;
+  }
+  
+  .ApodTitle3:hover {
+    color: rgb(226, 159, 159);
+    font-size: 28px;
+  }

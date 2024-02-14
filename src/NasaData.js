@@ -1,4 +1,5 @@
-const api_key = "eizXyyCxYnegNCb3xlTrOMggDwdkRruFkMw3lqUz";
+// NasaData.js
+const api_key = "DEMO_KEY";
 
 let ApiObj = {
   fetchData: async function (count) {
@@ -7,8 +8,18 @@ let ApiObj = {
       redirect: 'follow'
     };
 
-    let response = await fetch(`https://api.nasa.gov/planetary/apod?api_key=${api_key}&count=${count}`, requestOptions);
-    let result = await response.json();
+    /*let response = 
+    [
+      {
+        title:"test title",
+        date:"test date",
+        url:"http://resources.finalsite.net/images/f_auto,q_auto,t_image_size_3/v1645721429/rdaleorg/qblyqgwortzxvb3q4wct/testing.jpg",
+        explanation:"exp sample"
+      }
+    ] */
+   let response = await fetch(`https://api.nasa.gov/planetary/apod?api_key=${api_key}&count=${count}`, requestOptions);
+    let result = response.json();
+    console.log(result);
     return result;
   }
 }

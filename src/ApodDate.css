@@ -1,6 +1,7 @@
 /* ApodDate.css */
 
 .ApodDate {
+  font-family: 'Times New Roman', Times, serif;
     color: blue;
     font-size: 18px;
     margin-bottom: 15px;
@@ -11,4 +12,30 @@
     font-size: 22px;
     color: blue;
   }
+  .ApodDate2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   
+    color: rgb(190, 6, 15);
+    font-size: 18px;
+    margin-bottom: 15px;
+    transition: font-size 0.3s ease;
+  }
+  
+  .ApodDate2:hover {
+    font-size: 22px;
+    color:rgb(235, 155, 157);
+  }
+  
+  .ApodDate3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+    color: rgb(53, 179, 53);
+    font-size: 18px;
+    margin-bottom: 15px;
+    transition: font-size 0.3s ease;
+  }
+  
+  .ApodDate3:hover {
+    font-size: 22px;
+    color: rgb(10, 44, 10);
+  }

@@ -1,0 +1,29 @@
+/* Apod.css */
+.container {
+    margin-top: 20px; /* İhtiyaca göre ayarlayabilirsin */
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(123, 10, 136);
+    border-radius: 10px;
+  }
+  
+  .col-lg-4 {
+    flex: 0 0 32%; /* 32% genişlikte sütunlar, aralarında 2% boşluk */
+    margin-bottom: 20px; /* İhtiyaca göre ayarlayabilirsin */
+    border: 5px solid rgb(60, 10, 60);; /* Çerçeve rengi ve kalınlığı */
+    padding: 10px; /* İçeriğe boşluk ekler */
+    border-radius: 10px;
+  }
+  
+  /* ApodTitle.css */
+  /* Özelleştirmeleri burada yapabilirsin, örneğin font-size, renk, vb. */
+  
+  /* ApodDate.css */
+  /* Özelleştirmeleri burada yapabilirsin, örneğin font-size, renk, vb. */
+  
+  /* ApodExplanation.css */
+  /* Özelleştirmeleri burada yapabilirsin, örneğin font-size, renk, vb. */
+  

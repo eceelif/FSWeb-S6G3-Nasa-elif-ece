@@ -1,15 +1,15 @@
+// App.js
 import React, { useState } from "react";
 import ApiObj from "./NasaData";
 import ApodComponent from "./Apod.js";
 
 const Apod = () => {
   const [NasaData, setNasaData] = useState([]);
-//const [count, setCount] = useState(5); // Initialize count with a default value
   const [inputValue, setInputValue] = useState("");
 
   const fetchData = async () => {
     try {
-      const apiData = await ApiObj.fetchData(inputValue); // Use inputValue directly
+      const apiData = await ApiObj.fetchData(inputValue); // Do not use inputValue directly, pass it as count
       // Ensure that apiData is an array before setting it as NasaData
       if (Array.isArray(apiData)) {
         setNasaData(apiData);
@@ -20,7 +20,6 @@ const Apod = () => {
       console.error("Error fetching data:", error);
     }
   };
-  
 
   const handleInputChange = (e) => {
     setInputValue(e.target.value);
@@ -41,7 +40,7 @@ const Apod = () => {
           onChange={handleInputChange}
         />
         <button type="button" onClick={handleButtonClick}>
-          Update Count
+          Veriyi Güncelle
         </button>
         {NasaData ? (
           NasaData.map((item, index) => (
