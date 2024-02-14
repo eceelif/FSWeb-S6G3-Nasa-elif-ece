@@ -4,7 +4,7 @@ import ApodComponent from "./Apod.js";
 
 const Apod = () => {
   const [NasaData, setNasaData] = useState([]);
-  const [count, setCount] = useState(5); // Initialize count with a default value
+//const [count, setCount] = useState(5); // Initialize count with a default value
   const [inputValue, setInputValue] = useState("");
 
   const fetchData = async () => {
